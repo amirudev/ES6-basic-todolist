@@ -1,3 +1,20 @@
 .delete {
     display: none;
 }
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+/* Fixing browser selection */
+
+li::-moz-selection {
+    background-color: transparent;
+    color: black;
+}
+
+li::selection {
+    background-color: transparent;
+    color: black;
+}

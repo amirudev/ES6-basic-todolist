@@ -12,16 +12,17 @@ postMail = () => {
     li.appendChild(deleteMail);
     mail.appendChild(li);
 
-    // Start add .delete class
+    // Delete Mail function
     deleteMailFunction = () => {
         li.classList.add('delete');
-
-        // End add .delete
+    };
+    // Strikethrough Function
+    strikeMailFunction = () => {
+        li.classList.toggle('strikethrough');
     }
 
     deleteMail.addEventListener('click', deleteMailFunction);
-
-    // End create li
+    li.addEventListener('click', strikeMailFunction);
 }
 
 buttonInput.addEventListener('click', postMail);
