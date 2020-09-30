@@ -3,7 +3,7 @@ const mail = document.getElementById('mail');
 const buttonInput = document.getElementById('buttonMail');
 const liMail = document.getElementsByTagName('li');
 
-// Start create li for list (001)
+// Start create li for list
 postMail = () => {
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(input.value));
@@ -21,7 +21,7 @@ postMail = () => {
 
     deleteMail.addEventListener('click', deleteMailFunction);
 
-    // End create li (001)
+    // End create li
 }
 
 buttonInput.addEventListener('click', postMail);
