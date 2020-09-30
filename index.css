@@ -1,3 +1,50 @@
+container {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.todolist {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.inputbox {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.inputbox input {
+    width: 70%;
+}
+
+.inputbox button {
+    width: 20%;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+li {
+    margin: 0 auto;
+    list-style-type: none;
+    margin: 9px 0;
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+li:first-child {
+    text-align: left;
+}
+
+.deleteButton {
+    float: right;
+    background: none;
+    border: none;
+}
+
 .delete {
     display: none;
 }

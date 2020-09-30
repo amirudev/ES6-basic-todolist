@@ -9,6 +9,7 @@ postMail = () => {
     li.appendChild(document.createTextNode(input.value));
     var deleteMail = document.createElement('button');
     deleteMail.appendChild(document.createTextNode('X'));
+    deleteMail.className = 'deleteButton';
     li.appendChild(deleteMail);
     mail.appendChild(li);
 
