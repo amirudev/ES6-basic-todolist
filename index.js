@@ -42,6 +42,7 @@ sendMail = () => {
     li.appendChild(span);
     li.appendChild(deleteBtn);
     mail.appendChild(li);
+    input.value = '';
 
     deleteMailFunc = () => {
         li.classList.add('delete');

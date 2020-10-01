@@ -13,6 +13,7 @@
 }
 
 .delete {
+    transition: ease-out 10s;
     display: none;
 }
 
@@ -25,10 +26,12 @@
 .actives {
     color: black;
     background-color: white;
+    transition: 0.3s;
 }
 
 .strikethrough {
     color: white;
     background-color: tomato;
     text-decoration: line-through;
+    transition: 0.3s;
 }
